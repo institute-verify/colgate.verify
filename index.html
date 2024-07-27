@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Web Login Service</title>
+        
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+        <link rel="stylesheet" type="text/css" href="./colgate.css">
+<!--        <link rel="icon" href="/idp/images/favicon.ico" type="image/x-icon"/> -->
+    </head>
+    <body>
+
+<div id="header">
+ <h1 class="cu-page-header">Colgate University</h1>
+ <h2 class="cu-page-subhead">Secure Sign In</h2>
+</div>
+
+  <div class="flexbox-container">
+    <div class="flexbox-column flexbox-column-left">
+      <div class="flexbox-content">
+      <form action="" method="post"id="signUpForm">
+        <p>
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="j_username" placeholder="Email Address" autofocus="autofocus"></p>
+        <p><label for="password">Password</label>
+            <input type="password" id="password" name="j_password" placeholder="Password"></p>
+        <button id="submit" class="btn" type="submit" name="_eventId_proceed">Login</button>
+
+      </form>
+       <p><a href="https://accounts.colgate.edu/">Forgot your password?</a></p>
+      </div>
+    </div>
+    <div class="flexbox-column">
+      <div class="flexbox-content" style="padding: 0 2rem 0 0rem; max-width: 40rem;">
+        <p>This sign-in page is for students, faculty, and staff only.</p>
+        <p>If you are a new student or employee, please <a href="https://accounts.colgate.edu/">set your password</a> before signing in.</p>
+        <p>To protect your privacy, please quit your web browser when you are done accessing Colgate services.</p>
+        <p>Problem? Call <strong>(315) 228-7111</strong> or <strong><a href="http://www.colgate.edu/offices-and-services/information-technology/getting-help">Get ITS help</a></strong></p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+        <main class="main" style="display:none;">
+            <header>
+                <img class="main-logo" src="./colgate_logo.png" alt="Colgate University Logo">
+                
+            </header>
+            
+            <section>
+    
+                <ul>
+                    <li><a href="https://identity.colgate.edu/idp/profile/cas/login?execution=e1s2#">Forgot your password?</a></li>
+                    <li><a href="https://identity.colgate.edu/idp/profile/cas/login?execution=e1s2#">Need Help?</a></li>
+                </ul>
+            </section>
+        </main>
+        <!--
+        <footer class="footer">
+            <div class="cc">
+                <p></p>
+            </div>
+        </footer>
+        -->
+        <script src="script.js"></script>
+     
+
+</body></html>

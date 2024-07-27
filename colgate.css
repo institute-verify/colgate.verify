@@ -1,0 +1,103 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+  font-size: 14px;
+  border-top: solid thick #862633; /* @cu-maroon */
+  padding: 0 20px;
+  margin: 0;
+}
+
+.flexbox-column {
+  display: flex;
+  width: 100%;
+  padding: 0 1rem;
+}
+
+.flexbox-column-left {
+}   
+      
+.flexbox-content {
+  width: 100%;
+}       
+          
+@media (min-width: 640px) {
+  .flexbox-container {
+    display: flex; 
+  }     
+  .flexbox-column-left {
+    width: 30rem;  
+  }   
+}   
+    
+input { min-width:18rem; max-width: 25rem; } 
+    
+input {
+   display: block;
+   height: 34px;
+   padding: 3px 8px;
+   margin-top: 3px;
+   border-radius: 4px;
+   outline: none;
+   border: 1px solid lightgrey;
+   font-size: 14px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+  border-color: rgba(227, 150,21, 0.8);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(227, 150, 21, 0.6);
+  outline: 0 none;
+}
+
+a {
+  color: #e39615; /* @cu-light-orange */
+}
+
+a:hover, a:focus {
+  color: #862633;  /* @cu-maroon */
+}
+
+.btn{
+   padding: 6px 15px;
+   border-radius: 5px;
+   border: none;
+   background-color: #862633;
+   color: white;
+   font-size: 14px;
+   cursor: pointer;
+}
+
+.btn:hover, .btn:focus {
+  background-color: #e7810b;
+  border-color: #e39615;
+  color: #ddd;
+}
+.cu-page-header {
+  display: none;
+}
+.cu-page-subhead {
+font-size: 18px;
+font-weight: normal;
+color: #365777;
+margin: 0;
+padding-top: 45px;
+}
+
+#header
+{
+background-image: url(https://identity.colgate.edu/idp/images/colgate_logo.png);
+background-size: 90%;
+background-repeat: no-repeat;
+background-position: 15px 15px;
+padding-left: 15px;
+width: 100%;
+max-width: 425px;
+height: 70px;
+}
+
+#service-provider-name {
+  margin-top: 2px;
+}
